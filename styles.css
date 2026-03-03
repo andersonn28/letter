@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    overflow-x: hidden; 
+}
+
+.letter-card {
+    background-color: #fffaf0; 
+    border-radius: 15px;
+    max-width: 90%; 
+    width: 400px;
+    border: 2px dashed #f5c88d;
+}
+
+.letter-text {
+    font-family: 'Dancing Script', cursive;
+    color: #5c4033; 
+    line-height: 1.4;
+}
+
+.letter-body {
+    font-family: 'Patrick Hand', cursive;
+    color: #6a4c3e; 
+    line-height: 1.5;
+}
+
+.kitten-img {
+    width: 70px;
+    height: auto;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+
+.pastel-btn-yes {
+    background-color: #b5e48c;
+    color: #5c4033;
+    border: none;
+    transition: background-color 0.2s;
+}
+.pastel-btn-yes:hover, .pastel-btn-yes:focus {
+    background-color: #99d98c;
+    color: #5c4033;
+}
+
+.pastel-btn-no {
+    background-color: #ffb4a2;
+    color: #5c4033;
+    border: none;
+    position: relative;
+    z-index: 1050;
+    transition: left 0.3s ease, top 0.3s ease;
+}
+
+.sunflower {
+    position: absolute;
+    font-size: 2.5rem;
+    user-select: none;
+}
+.top-left { top: -20px; left: -15px; transform: rotate(-15deg); }
+.top-right { top: -20px; right: -15px; transform: rotate(15deg); }
+.bottom-left { bottom: -20px; left: -15px; transform: rotate(-20deg); }
+.bottom-right { bottom: -20px; right: -15px; transform: rotate(20deg); }
+
+.pastel-modal {
+    background-color: #fffaf0;
+    border-radius: 20px;
+}
